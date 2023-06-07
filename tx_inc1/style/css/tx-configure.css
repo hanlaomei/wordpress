@@ -1,0 +1,63 @@
+/*
+名称：shiui
+版本：20191105
+作者：天兴工作室
+网址：https://www.txcstx.cn
+邮箱：admin@txcstx.cn
+*/
+.tx-configure::after,.clearfix::after,tx-configure-item::after{display: table;content: " ";clear: both; }
+.tx-configure *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}
+.fl{float: left;}.fr{float: right;}
+.tx-configure{background-color: #fff;max-width: 900px;margin: 20px auto;font-weight: 200;border-radius: 5px;overflow: hidden;position: relative;font-size: 14px;box-shadow: 0 6px 12px rgba(0,0,0,.1);}
+.tx-configure a{transition: all .35s ease 0s;outline: 0;text-decoration:none;color: #555;}
+.tx-configure a:focus{border: 0;box-shadow: none;}
+.tx-configure::after{content: "";position: absolute;left: 0;top: 0;width: 180px;height: 100%;z-index: 1;background-color: #f4f4f4;}
+.tx-configure-cate{margin: 0;max-width: 700px;border: 1px solid #ff6f3d;}
+.tx-configure-title{color: #000;float: left;width: 180px;position: relative;z-index: 2;}
+.tx-configure-title h2{padding:20px;margin: 0;text-align: center;line-height: 1.5;background-color:rgba(0,0,0,0.01);}
+.tx-configure-title h2 a{display: inline-block;width: 70px;height: 70px;background:url(../img/txcstx.png) no-repeat 0 0;background-size:100% 100%;border-radius: 50%;box-shadow: 0 6px 12px rgba(0,0,0,.1);}
+.tx-configure-title h2 p{font-size: 20px;font-weight: 200;margin: 0;}
+.tx-configure-cate .tx-configure-title{float: none;width: 100%;}
+.tx-configure-cate::after{display: none;}
+.tx-configure-cate h2{padding: 10px;font-size: 18px;}
+.tx-configure-nav{line-height: 40px;padding: 10px 0;}
+.tx-configure-nav a{display:block; padding: 0 26px;color:#000;position: relative;}
+.tx-configure-nav a:hover{padding-left:31px;}
+.tx-configure-nav a.on,.tx-configure-nav a:hover,.tx-configure a:hover{color: #ff6f3d;}
+.tx-configure-nav a.on::after{content: "";position: absolute;top:50%;left:0;width:1px;height:14px;border-left: 3px solid #ff6f3d;margin-top:-7px;}
+.tx-configure-text{padding:15px 30px;color: #666;overflow: hidden;}
+.tx-configure-text-title{font-size: 20px;font-weight: 200;color: #111;margin:15px 0;padding:0;line-height: 1.2;}
+.tx-configure-text li{padding: 10px 0;border-bottom: 1px dotted #eee;}
+.tx-configure-text li:last-child{padding-bottom: 0;border-bottom: 0;}
+.tx-configure-text a{border-bottom: 1px solid #ff6f3d;}
+.tx-configure-box{padding: 15px 30px;line-height: 30px;color: #666;overflow: hidden;}
+.tx-configure-item{padding: 8px 0;border-bottom: 1px dotted #eee;}
+.tx-configure-label{display: block;margin-bottom: 5px;cursor:auto;}
+.label-block{float: left;margin:0 15px 0 0;}
+
+.tx-configure-block span{margin-left: 10px;color: #999;font-size: 12px;}
+.tx-configure-block small{margin-top: 8px;color: #aaa;font-size: 12px;display: block;line-height: 1.2;position: relative;padding-left: 18px;}
+.tx-configure-block small::after{content: "?";display: block;position: absolute;left: 0;top: 0;width: 14px;height: 14px;line-height: 14px; border-radius: 50%;background-color: #eee;color: #999;text-align: center;font-size: 9px;}
+.tx-configure-box input[type="text"],.tx-configure-box textarea{width: 100%;padding:4px 8px;box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);font-weight: 200;color: #666;font-size: 14px;font-family: "Microsoft YaHei", Verdana, sans-serif;}
+.tx-configure-box input[type="text"]{line-height: 22px;height: 30px;overflow: hidden;}
+.tx-configure-submit{background-color: #fff;padding:10px 0 0 0;border-radius:0 0 5px 5px;color: #aaa;line-height: 29px;}
+.tx-configure-submit input,.tx-configure input[type="Submit"],#btnPost,.tx-configure-upfile input[type="button"],a.upload_button{background-color: #ff6f3d;margin: 0;padding: 0 20px;color: #fff;border: 0;border-radius: 2px;font-weight: 200;font-size: 14px;font-family: "Microsoft YaHei", Verdana, sans-serif;line-height: 29px;height: 29px;vertical-align:middle;}
+a.upload_button:hover{color: #fff;opacity: 0.9;}
+.tx-configure-submit input:hover{opacity: 0.9;background-color: #ff6f3d;}
+.tx-configure-upfile{position: relative;width: 60%;}
+.tx-configure-aryic{width: 99%;margin-bottom: 8px;}
+.tx-configure-upfile a.upload_button,.tx-configure-upfile input[type="button"]{position: absolute;right: 0;top: 0;}
+.tx-configure-upfile input[type="file"],.tx-configure-upfile input[type="text"]{width: 100%;box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);font-weight: 200;color: #666;font-size: 14px;font-family: "Microsoft YaHei", Verdana, sans-serif;padding: 0 2px;line-height: 29px;height: 29px;}
+.upimg-img{width:36%;overflow: hidden;}
+.upimg-img img{max-width: 100%;height: 40px;-o-object-fit: cover;object-fit: cover;display:block;line-height: 1;}
+.ul-two li{float: left;width: 48%;}
+.ul-two li:nth-child(2n){float: right;}
+.recovery-color{display: inline-block;margin-left: 10px;line-height: 29px;height: 29px;background-color: #f1f1f1;border-radius: 2px;padding: 0 15px;vertical-align:middle;font-size: 12px;}
+
+/*checkbox*/
+.imgcheck{background: url(../img/checkbox.png) no-repeat 0 bottom; width: 40px; height: 17px; display: inline-block;/*	float:left;*/ cursor: pointer; margin-bottom: -3px; margin-left: 5px; }
+.imgcheck-on{background: url(../img/checkbox.png) no-repeat 0 top; }
+
+@media screen and (max-width: 900px) {
+    .tx-configure,.ul-two li,.tx-configure-upfile,.upimg-img{width: 100%;}   
+}
